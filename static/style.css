@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+.app-content {
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.column {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.left {
+    max-width: 200px;
+}
+
+.top-right {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.top-left {
+    flex-shrink: 0;
+}
+
+.content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.footer {
+  height: 5em;
+  background: orange;
+  width: 100vw;
+}
